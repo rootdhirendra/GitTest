@@ -11,6 +11,7 @@ namespace GitTest.Controllers
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
+            //Added new cp-omment
         }
 
         public IActionResult Index()
